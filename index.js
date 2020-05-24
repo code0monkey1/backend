@@ -7,7 +7,7 @@ console.log("Node works !!!")
 
 app.use(express.static('build'))
 
-const info=[
+let info=[
         {
         id:1,
         name:"chiranjeev"
